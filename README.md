@@ -28,7 +28,7 @@ Software de instalat:
 
 10. >> php artisan migrate
 
-11.>> php artisan db:seed
+11. >> php artisan db:seed
 
 12. >>php artisan serve
 
