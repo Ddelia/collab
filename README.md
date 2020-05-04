@@ -13,15 +13,23 @@ Software de instalat:
 
 2. Proiectul trebuie instalat in fisierul 'htdocs' din Xampp. (.\xampp\htdocs)
 3. Deschidem git bash
+
 4. >> git clone https://github.com/Ddelia/collab.git
+
 5. >> cd collab
+
 6. >> composer install
+
 7. >> cp .env.example .env
+
 8. >> php artisan key:generate
+
 9. >> php artisan config:cache
 
-10. >> php artisan migration
+10. >> php artisan migrate
+
 11.>> php artisan db:seed
+
 12. >>php artisan serve
 
 ------
