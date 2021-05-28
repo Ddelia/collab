@@ -29,7 +29,7 @@ class TasksController extends Controller
 
     public function store(Request $request)
     {
-        $title = $request->input('title');
+        $title = $request->input('title') ?? null;
         $description = $request->input('description');
         $deadline = date('Y-m-d', strtotime($request->input('deadline')));
         $priority = $request->input('priority');
