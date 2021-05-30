@@ -26,6 +26,7 @@ Route::group(['middleware' => ['auth']], function() {
     Route::post('/filter/users', 'TasksController@filter')->name('filter.user');
 
     Route::get('/echipa', 'TeamController@index')->name('team');
+    Route::get('/echipa-master', 'TeamController@index')->name('team');
 
 });
 

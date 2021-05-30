@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">
                     <span>Dashboard</span>
-                    <a href="{{route('task.create')}}" class="btn btn-success float-right"> Creeaza activitate </a>
+                    <a href="{{route('task.create')}}" class="btn btn-success float-right"> Creeaza activitate master </a>
                 </div>
 
                 <div class="card-body">
